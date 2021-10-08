@@ -30,7 +30,6 @@ def req_2(global_list, article):
 
 
 # requirement: deduplicate results from all files
-# accomplish by: 
 def req_1(files_dir):
 	global_list = {}
 	current_file = ""

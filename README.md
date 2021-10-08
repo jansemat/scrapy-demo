@@ -10,15 +10,7 @@ First, scrapy is a web crawler, not a browser. So, it can scrape information fro
 
 Secondly, some sites welcome users to scrape their content, other sites might not be as compliant. Some sites will try to identify scraping behavior and block your IP temporarily if you're found out. I'll show you how to circumvent this, but it's something that's important to remember. If your IP gets blocked by a content delivery network, your IP will be banned by a notable portion of the internet :) 
 
-Lastly, we need to understand the flow for how we will be crawling websites with scrapy. Here's a general flow we will be following:
-1. Use list of search terms to build queries
-2. Embed each query into a URL
-3. Load URLs into scrapy
-4. Have scrapy crawl URLs and scrape relevant content
-5. Output content into query/URL-specific file
-6. Combine output files into single file with relevant statistics
-
-Keep in mind that one general goal you want to try to accomplish is to get the information you need in as little web-requests as possible. This flow will be followed more closely when we build a spider later on. For now, I will show you how to install scrapy and practice scraping content from a website.
+Keep in mind that one general goal you want to try to accomplish is to get the information you need in as little web-requests as possible. Now, I will show you how to install scrapy and practice scraping content from a website.
 
 ### Installing Scrapy
 To install Scrapy, I used the pip package manager after creating a virtual environment using python3. First, here's the command I used to create my virtual environment. 
